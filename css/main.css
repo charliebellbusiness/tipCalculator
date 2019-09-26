@@ -1,5 +1,5 @@
 body {
-    background-color: green;
+    background-color: #96343E;
 }
 
 h1 {
@@ -16,22 +16,36 @@ h1 {
     margin-left: 10px;
 }
 
-input, #serviceQuality {
+#serviceQuality {
     margin-left: 10px;
 }
 
-button {
-    margin: 0 35%;
+#calculateTip {
+    margin-top: 10%;
+    margin-left: 20px;
     transform: scale(1.5);
+    display: inline-block;
+}
+
+#reset {
+    margin-left: 10%;
+    transform: scale(1.5);
+    display: inline-block;
 }
 
 
 #Container {
-    margin: 100px auto; /* give element a top margin of 100 px, center horizontally*/
-    background-color: lemonchiffon;
-    color: purple;
+    margin: 100px auto 0px; /* give element a top margin of 100 px, center horizontally*/
+    background-color: #fffacd;
+    color: #800080;
     height: 525px;
     width: 360px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px black;
+}
+
+#tipAmount {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 10%;
 }

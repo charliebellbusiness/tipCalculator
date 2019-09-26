@@ -18,13 +18,15 @@
         
 
             <div id="userInputs">
+
                 <form>
+
                     <p>How much was your bill?</p>
-                        <input type="text" placeholder="Example: $13.37">
+                        <input id= "bill" type="text" placeholder="Example: $13.37">
                     <p>How was your service?</p>
 
-                    <select id="serviceQuality">
-                        <option selected disabled> --Choose an Option-- </option>
+                    <select id="serviceQual">
+                        <option selected value = 0 disabled> --Choose an Option-- </option>
                         <option value = "0.05">5% - Sonic CD 2</option>
                         <option value = "0.1">10% - Poor</option>
                         <option value = "0.15">15% - Eh</option>
@@ -33,13 +35,25 @@
                     </select>
 
                     <p>How many people are sharing the bill?</p>
-                        <input type="text" placeholder="Enter a number">
-                    <br><br><br>
-                    <button type="button" id="calculateTip">Calculate Tip</button>
+                        <input id="peopleNum" type="text" placeholder="Enter a number">
+                
+                <div id="buttons">
+                    <button type="button" id="calculateTip">Calculate Tip</button> 
+                    <button type="button" id="reset">Reset</button>  
+                        
+                </div>
+                      
+
                 </form>
+
+            </div>
+
+            <div id=tipAmount>
+                <sup>$</sup><span id="tip">0.00</span><small> each</small>
             </div>
 
     </div>
+
 
 
 
